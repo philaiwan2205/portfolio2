@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ผลงานและเกียรติบัตร</title>
 
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Kanit',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#F3E8FF,#E9D5FF,#DDD6FE);
+}
+
+nav{
+background:rgba(255,255,255,.85);
+padding:18px;
+display:flex;
+justify-content:center;
+gap:35px;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+nav a{
+text-decoration:none;
+color:#7E57C2;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#5E35B1;
+}
+
+.container{
+max-width:1200px;
+margin:50px auto;
+padding:20px;
+}
+
+h1{
+text-align:center;
+color:#6A1B9A;
+margin-bottom:40px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.content{
+padding:20px;
+}
+
+.content h2{
+color:#7E57C2;
+margin-bottom:10px;
+}
+
+.content p{
+color:#555;
+line-height:1.7;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">หน้าหลัก</a>
+<a href="about.html">เกี่ยวกับฉัน</a>
+<a href="activities.html">กิจกรรม</a>
+<a href="achievements.html">ผลงาน</a>
+<a href="contact.html">ติดต่อ</a>
+</nav>
+
+<div class="container">
+
+<h1>ผลงานและเกียรติบัตร</h1>
+
+<div class="cards">
+
+<div class="card">
+<img src="images/certificate1.jpg" alt="เกียรติบัตร 1">
+<div class="content">
+<h2>เกียรติบัตรการอบรม</h2>
+<p>
+ผ่านการเข้าร่วมอบรมและได้รับเกียรติบัตรเพื่อพัฒนาความรู้และทักษะ
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/certificate2.jpg" alt="เกียรติบัตร 2">
+<div class="content">
+<h2>การแข่งขัน</h2>
+<p>
+เข้าร่วมการแข่งขันและได้รับประกาศนียบัตรจากการแสดงความสามารถ
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/certificate3.jpg" alt="เกียรติบัตร 3">
+<div class="content">
+<h2>ผลงานเด่น</h2>
+<p>
+ผลงานที่แสดงถึงความรับผิดชอบ ความคิดสร้างสรรค์ และความมุ่งมั่น
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/certificate4.jpg" alt="เกียรติบัตร 4">
+<div class="content">
+<h2>กิจกรรมอาสา</h2>
+<p>
+เข้าร่วมกิจกรรมจิตอาสา
+</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
